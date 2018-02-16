@@ -1,0 +1,34 @@
+{
+  "name": "Infoview",
+  "version": "0.1.0",
+  "description": "Simple info display app",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagge/infoview.git"
+  },
+  "keywords": [
+    "http",
+    "www",
+    "rest",
+    "framework"
+  ],
+  "author": {
+    "name": "Tobias Gagge Johnsson",
+    "email": "tobias@nublar.se",
+    "url": "https://github.com/gagge/infoview"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gagge/infoview/issues"
+  },
+  "homepage": "https://github.com/gagge/infoview#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "larvitbase-www": "larvit/larvitbase-www",
+    "winston": "^2.4.0"
+  }
+}
